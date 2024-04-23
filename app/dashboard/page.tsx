@@ -73,7 +73,6 @@ export default function Dashboard() {
   }
 
 
-  const {theme , setTheme} = useTheme();
   return (
     <div className="min-h-screen dark:bg-black bg-stone-200 dark:bg-dot-white/[0.2] bg-dot-black/[0.4] relative flex items-center justify-center w-full p-1.5 pt-10 transition-all sm:p-4 sm:pt-12">
      {/* Container */}
@@ -83,7 +82,7 @@ export default function Dashboard() {
        <p className="text-xl font-semibold text-white">Gitfinder</p>
        </Link>
        <div className="flex flex-row justify-center items-center gap-2">
-       <p className="text-sm text-white">{theme === "light" ? "Light" : "Dark" }</p>
+       <p className="text-sm text-white"></p>
        <ModeToggle />
        </div>
       </section>
