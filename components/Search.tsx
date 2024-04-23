@@ -9,7 +9,7 @@ export default function Search(props : Props){
         <form onSubmit={props.onSubmit} className="flex items-center gap-2 w-ful p-2 rounded-lg">
             <section className="flex py-4 items-center w-full h-full gap-2">
                 <SearchIcon className="" size={30}/>
-                <input className="w-full py-3 rounded-lg dark:bg-primary bg-slate-400 text-black  font-bold" 
+                <input className="w-full py-3 rounded-lg pl-2" 
                 type="text"
                 placeholder="Search Github username.." 
                 value={props.value}
